@@ -13,7 +13,7 @@ REGOLE
 function area(l1, l2) {
   return l1 * l2;
 }
-let risultato = area(5, 8);
+const risultato = area(5, 8);
 console.log("ex-1");
 console.log(risultato);
 
@@ -26,9 +26,9 @@ console.log(risultato);
 /* SCRIVI QUI LA TUA RISPOSTA */
 function crazySum(num1, num2) {
   if (num1 === num2) {
-    return num1 + num2;
-  } else {
     return (num1 + num2) * 3;
+  } else {
+    return num1 + num2;
   }
 }
 console.log("ex-2");
@@ -41,9 +41,9 @@ console.log(crazySum(5, 3));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-function crazyDiff(number) {
-  let diff = Math.abs(number - 19);
-  if (number > 19) {
+function crazyDiff(num) {
+  let diff = Math.abs(num - 19);
+  if (num > 19) {
     return diff * 3;
   } else {
     return diff;
